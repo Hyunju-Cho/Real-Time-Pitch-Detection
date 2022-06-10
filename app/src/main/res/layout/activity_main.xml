@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Start"/>
+
+    <LinearLayout
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_notetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dmarP"
+            android:textSize="30dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_pitchtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hertz"
+            android:textSize="25dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
